@@ -535,6 +535,10 @@ body {
         text-align: center;
         padding: 20px 0;
         transform: translateY(-500px);
+        transition: all .5s;
+    }
+    .menu__list.menu__list--active {
+        transform: translateY(0px);
     }
     .menu__list-link {
         padding: 20px 0;
