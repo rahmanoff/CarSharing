@@ -43,6 +43,10 @@ body {
     height: 100px;
 }
 
+.menu__btn {
+    display: none;
+}
+
 .menu__list {
     display: flex;
 }
@@ -515,4 +519,45 @@ body {
 
 .footer__social-link {
     margin: 0 15px;
+}
+
+@media (max-width: 860px) {
+    .menu {
+        order: 1;
+    }
+    .menu__list {
+        display: block;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        background-color: #332208;
+        right: 0;
+        text-align: center;
+        padding: 20px 0;
+        transform: translateY(-500px);
+    }
+    .menu__list-link {
+        padding: 20px 0;
+        display: block;
+    }
+    .menu__btn {
+        display: block;
+        cursor: pointer;
+        width: 35px;
+        height: 24px;
+        border: none;
+        border-top: 2px solid #fefefe;
+        border-bottom: 2px solid #fefefe;
+        background-color: transparent;
+        position: relative;
+    }
+    .menu__btn::before {
+        content: '';
+        position: absolute;
+        width: 35px;
+        height: 2px;
+        background-color: #fefefe;
+        left: 0;
+        top: 9px;
+    }
 }
