@@ -620,6 +620,9 @@ body {
     .rent__item {
         margin: 30px;
     }
+    .feedback__images {
+        display: none;
+    }
 }
 
 @media (max-width: 650px) {
