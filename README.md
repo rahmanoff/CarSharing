@@ -1,2 +1,2 @@
 # CarSharing
-Landing for Car Rent Company
+Landing Page for Car Rent Company
